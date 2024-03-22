@@ -6,7 +6,12 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
-
-    return 0;
+    char a;
+    scanf("%c",&a);
+    if(a =='a' || a =='e'||a =='i'||a =='o'||a =='u')
+        printf("o");
+    else
+        printf("x");
+    
+     return 0;
 }

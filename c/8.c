@@ -6,7 +6,11 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    int a,i;
+    scanf("%d",&a);
+    for(i = 1, i <= a; w, i++;)
+    
 
+    
     return 0;
 }

@@ -5,8 +5,11 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
+    char a,b,c;
+    scanf("%c%c%c",&a,&b,&c);
+    printf("%c%c%c",c,b,a);
     // 이곳에 코드를 작성해주세요!
-
     return 0;
 }
